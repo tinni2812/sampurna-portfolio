@@ -53,7 +53,7 @@ const projects = [
 export function Projects() {
   return (
     <Section id="projects">
-      <SectionHeading eyebrow="Projects" title="Things I've shipped." subtitle="A selection of recent work across AI, full-stack, and IoT." />
+      <SectionHeading eyebrow="Projects" title="Things I've created." subtitle="A selection of recent work across AI, full-stack, and IoT." />
       <div className="grid gap-6 md:grid-cols-2">
         {projects.map((p, i) => (
           <motion.article
