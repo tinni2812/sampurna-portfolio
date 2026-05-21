@@ -23,7 +23,7 @@ export function About() {
         >
           <p className="text-foreground/90 leading-relaxed">
             I'm a <span className="text-gradient font-semibold">B.Tech CSE student at Vellore Institute of Technology</span> (Batch 2023–2027),
-            currently holding a CGPA of <span className="text-foreground font-semibold">8.96</span>. I love turning ideas into shipped
+            currently holding a CGPA of <span className="text-foreground font-semibold">8.96</span>. I love turning ideas into created
             software — from AI-driven resume screeners and face recognition systems to IoT irrigation rigs and full-stack web apps.
           </p>
           <p className="mt-4 text-muted-foreground leading-relaxed">
