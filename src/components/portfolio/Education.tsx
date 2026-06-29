@@ -7,7 +7,7 @@ const items = [
     school: "Vellore Institute of Technology",
     degree: "B.Tech, Computer Science Engineering",
     period: "2023 – 2027",
-    score: "CGPA: 9.02",
+    score: "CGPA: 8.96",
   },
   {
     school: "Asansol North Point School",
