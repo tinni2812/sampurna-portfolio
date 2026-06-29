@@ -3,7 +3,7 @@ import { Section, SectionHeading } from "./Section";
 import { GraduationCap, Code2, Brain, Trophy } from "lucide-react";
 
 const stats = [
-  { label: "CGPA", value: "8.96", icon: GraduationCap },
+  { label: "CGPA", value: "9.02", icon: GraduationCap },
   { label: "LeetCode Solved", value: "500+", icon: Code2 },
   { label: "Projects Built", value: "5+", icon: Brain },
   { label: "HackerRank ★", value: "5★", icon: Trophy },
@@ -23,7 +23,7 @@ export function About() {
         >
           <p className="text-foreground/90 leading-relaxed">
             I'm a <span className="text-gradient font-semibold">B.Tech CSE student at Vellore Institute of Technology</span> (Batch 2023–2027),
-            currently holding a CGPA of <span className="text-foreground font-semibold">8.96</span>. I love turning ideas into created
+            currently holding a CGPA of <span className="text-foreground font-semibold">9.02</span>. I love turning ideas into created
             software — from AI-driven resume screeners and face recognition systems to IoT irrigation rigs and full-stack web apps.
           </p>
           <p className="mt-4 text-muted-foreground leading-relaxed">
