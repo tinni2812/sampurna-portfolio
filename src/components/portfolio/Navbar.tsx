@@ -54,7 +54,7 @@ export function Navbar() {
             ))}
           </ul>
           <a
-            href="/SampurnaDas_Resume.pdf"
+            href="/Sampurna_Resume.pdf"
             download
             className="hidden md:inline-flex items-center rounded-full bg-gradient-primary px-4 py-1.5 text-xs font-medium text-primary-foreground shadow-glow hover:opacity-90 transition"
           >
