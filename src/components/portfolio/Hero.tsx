@@ -75,7 +75,7 @@ export function Hero() {
 
           <div className="flex flex-wrap gap-3 mt-2">
             <a
-              href="/resume.pdf"
+              href="/Sampurna_Resume.pdf"
               download
               className="group inline-flex items-center gap-2 rounded-full bg-gradient-primary px-6 py-3 text-sm font-medium text-primary-foreground shadow-glow hover:scale-[1.03] active:scale-100 transition"
             >
