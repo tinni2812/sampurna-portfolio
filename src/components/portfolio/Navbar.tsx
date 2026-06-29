@@ -55,7 +55,8 @@ export function Navbar() {
           </ul>
           <a
             href="/Sampurna_Resume.pdf"
-            download
+            download="Sampurna_Resume.pdf"
+            type="application/pdf"
             className="hidden md:inline-flex items-center rounded-full bg-gradient-primary px-4 py-1.5 text-xs font-medium text-primary-foreground shadow-glow hover:opacity-90 transition"
           >
             Resume
@@ -93,7 +94,8 @@ export function Navbar() {
               <li>
               <a
                   href="/Sampurna_Resume.pdf"
-                  download
+                  download="Sampurna_Resume.pdf"
+                  type="application/pdf"
                   className="block mt-1 text-center rounded-lg bg-gradient-primary px-4 py-2 text-sm font-medium text-primary-foreground"
                 >
                   Download Resume
