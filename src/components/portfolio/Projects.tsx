@@ -101,12 +101,22 @@ export function Projects() {
                 >
                   <Github className="h-3.5 w-3.5" /> Code
                 </a>
-                <button
-                  disabled={!p.demo}
-                  className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-primary px-3 py-1.5 text-xs text-primary-foreground disabled:opacity-50 disabled:cursor-not-allowed hover:opacity-90 transition"
-                >
-                  <ExternalLink className="h-3.5 w-3.5" /> {p.demo ? "Live Demo" : "Demo Soon"}
-                </button>
+                {p.demo ? (
+                  <a
+                    href={p.demo}
+                    target="_blank" rel="noreferrer"
+                    className="inline-flex items-center gap-1.5 rounded-lg border border-border px-3 py-1.5 text-xs hover:border-primary hover:text-primary transition"
+                  >
+                    <ExternalLink className="h-3.5 w-3.5" /> Demo
+                  </a>
+                ) : (
+                  <button
+                    disabled
+                    className="inline-flex items-center gap-1.5 rounded-lg bg-gradient-primary px-3 py-1.5 text-xs text-primary-foreground disabled:opacity-50 disabled:cursor-not-allowed transition"
+                  >
+                    <ExternalLink className="h-3.5 w-3.5" /> Demo Soon
+                  </button>
+                )}
               </div>
             </div>
           </motion.article>
