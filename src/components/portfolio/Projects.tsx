@@ -4,6 +4,15 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "SocietyPulse",
+    tag: "Full-Stack Community Management Platform",
+    desc: "A role-based society management platform for resident complaints and admin operations, featuring SLA tracking, notifications, complaint analytics, recurring-issue detection, location hotspots, and a Maintenance Health Score.",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Prisma", "PostgreSQL (Neon)", "NextAuth", "Vercel"],
+    gradient: "from-fuchsia-500/40 to-rose-500/40",
+    github: "https://github.com/tinni2812/societypulse",
+    demo: "https://societypulse.vercel.app/login",
+  },
+  {
     title: "HireDesk",
     tag: "AI-Driven Resume Screening",
     desc: "AI-powered resume screening platform using NLP, BERT embeddings, and cosine similarity for candidate ranking. Reduced manual screening time by 60% with 85% matching accuracy.",
