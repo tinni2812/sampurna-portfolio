@@ -4,23 +4,23 @@ import { Section, SectionHeading } from "./Section";
 const groups = [
   {
     title: "Programming Languages",
-    items: ["Java", "Python", "C", "C++"],
+    items: ["JavaScript", "SQL", "Java", "Python", "C", "C++"],
   },
   {
     title: "Web Technologies",
-    items: ["HTML", "CSS", "JavaScript", "React"],
+    items: ["Next.js", "Node.js", "Express.js", "NextAuth", "HTML", "CSS", "JavaScript", "React"],
   },
   {
     title: "Database & Tools",
-    items: ["SQL", "MySQL", "Git", "GitHub"],
+    items: ["PostgreSQL", "Prisma", "AWS", "Version Control Workflow", "SQL", "MySQL", "Git", "GitHub"],
   },
   {
     title: "Core Concepts",
-    items: ["DSA", "OOPs", "DBMS", "Operating Systems", "Computer Networks"],
+    items: ["Class & System Design", "Database Design", "Unit Testing", "DSA", "OOPs", "DBMS", "Operating Systems", "Computer Networks"],
   },
   {
     title: "Technologies",
-    items: ["AI/ML", "NLP", "IoT", "REST APIs"],
+    items: ["Machine Learning", "AI/ML", "NLP", "IoT", "REST APIs"],
   },
   {
     title: "Soft Skills",
